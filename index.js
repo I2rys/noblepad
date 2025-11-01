@@ -102,6 +102,8 @@
         var cookieData = await dS(res, req.cookies)
         const data = await pads.findOne({ location: cookieData.location })
 
+        if(content.length > 100000) return res.send("0") // Max of content that can be stored is 100k characters.
+
         if(data){
             await pads.updateOne({ location: cookieData.location }, {
                 $set: {
