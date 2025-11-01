@@ -31,3 +31,14 @@ pnpm install
 ```
 node index.js
 ```
+
+# 🌟 Sponsors
+<table border="1">
+    <tr>
+        <td style="text-align: center; padding: 10px;">
+            <img src="https://qu.ax/wttLX.png" alt="VexHub" style="width: 150px; height: auto;">
+            <br>
+            <p align="center"><a href="https://vexhub.dev/">VexHub</a></p>
+        </td>
+    </tr>
+</table>
