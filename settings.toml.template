@@ -1,0 +1,12 @@
+[web]
+port = 8080
+
+[security]
+cookieMasterKey = ""
+cookiePBKDF2Iterations = 5000 # Default is 5000.
+saltLength = 10 # Default is 10.
+
+[database]
+mongoDBURL = ""
+databaseName = ""
+collectionName = ""

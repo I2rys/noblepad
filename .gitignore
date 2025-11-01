@@ -1,0 +1,8 @@
+.vercel
+node_modules
+.vercelignore
+pnpm-lock.yaml
+settings.toml
+vercel-prod
+vercel.json
+README.txt

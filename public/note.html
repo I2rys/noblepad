@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en" style="background: #08090A;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>NoblePad</title>
+    <meta name="description"
+        content="The only secure, anonymous, private and noble website to save notes from anywhere.">
+    <link rel="icon" type="image/png" sizes="500x500" href="/assets/img/logo.png">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.min.css">
+</head>
+
+<body style="background: #08090A;">
+    <nav class="navbar navbar-expand-md py-3" style="border-bottom: 1px solid #848992 ;">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"><span class="fw-bold"
+                    style="color: rgb(255,214,0);font-size: 25px;">NoblePad</span></a><button data-bs-toggle="collapse"
+                class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle
+                    navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-2">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#why" style="color: #848992;">Why</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="#policy" style="color: #848992;">Policy</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="/" style="color: #848992;">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section style="margin-top: 4%;">
+        <div style="text-align: center;"><img src="/assets/img/logo.png" width="108" height="96">
+            <h4 class="fw-bold" style="color: rgb(255,214,0);">The fastest way to save notes anywhere</h4>
+            <h6 class="fw-normal" style="color: white;font-style: italic;">Secure, Anonymous, Private and Noble</h6>
+        </div>
+        <div style="text-align: center;height: 180px;"><textarea id="note"
+                style="background: #333;color: #fff;height: 100%;width: 50%;"></textarea></div>
+        <div style="text-align: center;margin-top: 2%;"><button class="btn btn-primary fw-semibold" id="save-pad"
+                type="button" style="background: white;color: black;border-radius: 15px;">SAVE PAD</button><button
+                class="btn btn-primary fw-semibold" id="nuke-pad" type="button"
+                style="background: white;color: black;border-radius: 15px;">NUKE PAD</button><button
+                class="btn btn-primary fw-semibold" type="button" onclick="window.location.href='/';"
+                style="background: white;color: black;border-radius: 15px;">EXIT PAD</button></div>
+                <div style="text-align: center;margin-top: 2%;"><p id="message" style="color: silver;"></p></div>
+    </section>
+    <section style="margin-top: 10%;">
+        <div id="why" style="background: #0C0D0E;width: 100%;height: 100%;">
+            <h1 class="fw-semibold" style="text-align: center;color: white;">Why</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card" style="border-style: none;background: transparent;">
+                            <div class="card-body" style="background: #141518;border-radius: 25px;">
+                                <h4 class="card-title" style="color: white;text-align: center;">Secure</h4>
+                                <p class="card-text" style="color: #848992;text-align: center;">NoblePad is created with
+                                    a high sense of security ensuring everything is encrypted, and privacy-focused
+                                    providers are utilized AMAP.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card" style="border-style: none;background: transparent;">
+                            <div class="card-body" style="background: #141518;border-radius: 25px;">
+                                <h4 class="card-title" style="color: white;text-align: center;">Private</h4>
+                                <p class="card-text" style="color: #848992;text-align: center;">NoblePad is
+                                    zero-knowledge by design. We don't know what you store, and we will never know. The
+                                    code is 100% open-source for you to see.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="margin-top: 2%;">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-6">
+                        <div class="card" style="border-style: none;background: transparent;">
+                            <div class="card-body" style="background: #141518;border-radius: 25px;">
+                                <h4 class="card-title" style="color: white;text-align: center;">Anonymous</h4>
+                                <p class="card-text" style="color: #848992;text-align: center;">You don't need to
+                                    register to use NoblePad, simply visit the website and input your pad. That's how
+                                    simple and private it is.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><span>&nbsp;</span>
+        </div>
+        <div id="policy" style="background: transparent;width: 100%;height: 100%;margin-top: 7%;">
+            <h1 class="fw-semibold" style="text-align: center;color: white;">Simple Policy</h1>
+            <ol style="margin-left: 30%;margin-right: 30%;margin-top: 3%;">
+                <li class="fw-semibold" style="color: #CFCFD0;">Always free to use. Huge thank you to <a
+                        href="https://vexhubhosting.dev/">Vexhub</a>&nbsp;for providing the database.</li>
+                <li class="fw-semibold" style="color: #CFCFD0;">Everything is encrypted, yes everything. We don't know
+                    anything.</li>
+                <li class="fw-semibold" style="color: #CFCFD0;">We don't care what you store because we can't know nor
+                    check. Also It's open-source.</li>
+                <li class="fw-semibold" style="color: #CFCFD0;">You can delete your pad anytime and anywhere.</li>
+                <li class="fw-semibold" style="color: #CFCFD0;">We are not responsible if you lost your pad, or someone
+                    somehow got accessed to your pad.</li>
+                <li class="fw-semibold" style="color: #CFCFD0;">The website does not log any information.</li>
+                <li class="fw-semibold" style="color: #CFCFD0;">Only your hashed primary key, code, key, location, and
+                    encrypted content is stored in the database. Nothing else.</li>
+            </ol><span>&nbsp;</span>
+        </div>
+    </section>
+    <footer style="margin-top: 14%;background: transparent;border-top: 1px solid gray;text-align: center;">
+        <div class="d-flex justify-content-between align-items-center pt-3">
+            <h6 style="color: #d5d5d5;width: 100%;"><img src="/assets/img/ng-logo.png" width="46"
+                    style="margin-top: -3px;" height="46"><strong>Copyright © 2025 Nobleness Group. All rights
+                    reserved.</strong></h6>
+        </div>
+    </footer>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/js/script.min.js"></script>
+</body>
+
+</html>
